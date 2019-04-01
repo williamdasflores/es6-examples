@@ -1,0 +1,6 @@
+In ES6 do not use 'var' any more!!
+
+Const -> It is a keyword that is used to declare variable 
+    when we expect that the value we assigned to never change.
+
+Let -> It is used to declare variable when we expected to change over time.s

@@ -1,0 +1,9 @@
+ARRAY HELPER METHODS
+
+-> forEach
+-> map
+-> filter
+-> find
+-> every
+-> some
+-> reduce

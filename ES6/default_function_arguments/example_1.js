@@ -8,7 +8,7 @@ function makeAjaxRequest(url, method = 'GET') {
 
 }
 
-makeAjaxRequest('google.com');
-makeAjaxRequest('google.com', 'POST');
+makeAjaxRequest('google.com'); // prints GET
+makeAjaxRequest('google.com', 'POST'); // prints POST
 makeAjaxRequest('google.com', undefined); // prints 'GET'
 makeAjaxRequest('goole.com', null); // it passes null as argument. Will print null

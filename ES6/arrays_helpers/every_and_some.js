@@ -8,8 +8,8 @@ var computers = [
 var allComputersRanProgram = computers.every(function(item) {
     return item.ram > 20;
 });
-//console.log('----------- Every Helper -----------');
-//console.log(allComputersRanProgram);
+console.log('----------- Every Helper -----------');
+console.log(allComputersRanProgram);
 
 var someComputersRanProgram = computers.some(function(item) {
     return item.ram > 20;
@@ -36,4 +36,4 @@ var formIsValid = fields.every(function(field) {
     return field.validate();
 });
 
-console.log(formIsValid);
+//console.log(formIsValid);

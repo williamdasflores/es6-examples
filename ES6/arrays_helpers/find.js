@@ -9,7 +9,7 @@ var user = users.find(function(user) {
     return user.name === 'Alex';
 });
 
-//console.log(user);
+console.log(user);
 
 /*-----------------------------------------*/
 function Car(model) {
@@ -20,7 +20,8 @@ var cars = [
     new Car('Polo'),
     new Car('Camaro'),
     new Car('Focus'),
-    new Car('Fox')
+    new Car('Fox'),
+    new Car('Camaro')
 ];
 
 var car = cars.find(function(car) {

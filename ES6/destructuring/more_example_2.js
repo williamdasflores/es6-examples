@@ -10,7 +10,7 @@ const points = [
 console.log(pair);*/
 
 // As I have the same name returning I can use just one x and y
-const pair = points.map(([ x, y]) => {
+const pair = points.map(([ x, y ]) => {
     return { x, y };
 });
 console.log(pair);

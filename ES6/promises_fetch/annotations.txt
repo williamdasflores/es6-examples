@@ -1,0 +1,8 @@
+There are 3 states of Promises
+
+"Unresolved" -> waiting for something to finish.
+"Resolved" -> something finished and it all went ok.
+"Rejected" -> something finished and somethig went wrong.
+
+When the status of a promise is "resolved", it returns a callback method called "then".
+When something bad happens, "rejected", it returns a "catch" callback method.
